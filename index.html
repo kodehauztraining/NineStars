@@ -8,6 +8,9 @@
   <link rel="stylesheet"
     href="./assets/styles/bootstrap-5.0.0-beta3-dist/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./vendor/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="./vendor/aos/aos.css">
   <title>NineStars</title>
 </head>
 
@@ -15,40 +18,45 @@
   <div class="contaier-fluid bg-primary">
     <!-- Welcome to our first Group Boostrap Project -->
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark sha">
     <div class="container">
       <a class="navbar-brand fs-1  text-white" href="#">Ninestars</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 sha">
           <li class="nav-item">
-            <a class="nav-link  pt-4 text-white" aria-current="page" href="#">Home</a>
+            <a 
+            
+            class="nav-link  pt-4 text-white" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#about">About Us</a>
+            <a class="nav-link pt-4 text-white" href="#about Us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#contacts">Services</a>
+            <a class="nav-link pt-4 text-white" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#contacts">Portfolio</a>
+            <a class="nav-link pt-4 text-white" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#contacts">Team</a>
+            <a class="nav-link pt-4 text-white" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#contacts">Testimonial</a>
+            <a class="nav-link pt-4 text-white" href="#testimonial">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pt-4 text-white" href="#contacts">Contact</a>
+            <a class="nav-link pt-4 text-white" href="#contact">Contact</a>
           </li>
         </ul>
         <div class="pt-3">
           <button type="button" class="btn btn-warning ">Get Started</button>
         </div>
+      </div>
+    </div>
+
   </nav>
   <!-- nav ends -->
 
@@ -72,30 +80,7 @@
 
 
   </div>
-  <!-- <div class="container-fluid">
-  <div class="row">
-<div class="col-md-6">
 
-  <p class= "better">
-    Better digital<br>experience with<br>Ninestars<br>
-  </p>
-  <p class= "better">
-    Better digital<br>experience with<br>Ninestars<br>
-  </p>
-  <button class="btn btn-lg btn-danger">hello</button>
-</div>
-<div class="col-md-6">
-
-  <p class= "better">
-    Better digital<br>experience with<br>Ninestars<br>
-  </p>
-  <p class= "better">
-    Better digital<br>experience with<br>Ninestars<br>
-  </p>
-  <button class="btn btn-lg btn-danger">hello</button>
-</div>
-  </div>
-</div> -->
   <div class="container d-flex img-div pt-5 mt-5 ">
     <div class="row">
       <div class="img-div col-12 col-md-6">
@@ -140,15 +125,15 @@
   </div>
   <!-- end of first section -->
 
-  <!-- sevices section -->
-  <div class=" container-fluid pt-5 mt-5  pb-5 color ">
+  <!-- sevrices section -->
+  <div class=" container-fluid pt-5 mt-5 pb-5" data-aos="fade-up" id="services">
     <p class="fs-2 text-center text-secondary">Services</p>
     <h1 class="text-center">Check out the great services we offer</h1>
     <p class="text-center text-warning">_________</p>
-    
+
     <div class="row d-flex ">
-      <div class="col-md-6 col-lg-3 text-center aos-init aos-animate  " data-aos="zoom-in" data-aos-delay="100">
-        <div class="card rounded">
+      <div class="col-md-6 col-lg-3 text-center" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card rounded shadow box">
           <div class="icon-box">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-globe2 "
               viewBox="0 0 16 16">
@@ -163,8 +148,8 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3  text-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card rounded">
+      <div class="col-md-6 col-lg-3  text-center " data-aos="zoom-in" data-aos-delay="200">
+        <div class="card rounded shadow">
           <div class="icon-box">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-file-earmark-text"
               viewBox="0 0 16 16">
@@ -182,8 +167,8 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 text-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-        <div class="card rounded">
+      <div class="col-md-6 col-lg-3 text-center" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card rounded shadow">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-compass"
@@ -200,8 +185,8 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 text-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
-        <div class=" card rounded">
+      <div class="col-md-6 col-lg-3 text-center " data-aos="zoom-in" data-aos-delay="400">
+        <div class=" card rounded shadow">
           <div class="icon-box ">
             <div class="icon"><i class="bx bx-world "></i></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-life-preserver"
@@ -211,17 +196,186 @@
             </svg>
             <h4 class="text-dark">Nemo Enim</h4>
             <p class="description">At vero eos et<br> accusamus et iusto<br> odio dignissimos <br>ducimus qui blanditiis
-              
+
             </p>
 
           </div>
         </div>
       </div>
     </div>
-
   </div>
-</div>
-</div>
-  <script src="./styles/bootstrap-5.0.0-beta3-dist/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+  </div>
+  <!-- clients section -->
+  <!-- <section class="clients bg-dark">
+    <div class="container">
+
+      <div>
+        <p class="fs-2 text-center text-secondary pt-5 mt-5">Clients</p>
+        <h1 class="text-center">They trusted us</h1>
+        <p class="text-center text-warning">_________</p>
+      </div>
+
+      <div class="clients-slider swiper-container">
+        <div class="swiper-wrapper align-items-center ">
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-1.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-2.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-3.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-4.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-5.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-6.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-7.png" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/clients/client-8.png" alt="" class="img-fluid">
+          </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+
+  </section> -->
+
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title mt-5">
+        <h2>Clients</h2>
+        <p>They trusted us</p>
+      </div>
+      <div class="clients-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="./assets/img/clients/client-1.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-2.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-3.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-4.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-5.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-6.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-7.png" class="img-fluid" alt="new text" />
+          </div>
+          <div class="swiper-slide"><img src="./assets/img/clients/client-8.png" class="img-fluid" alt="new text" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section><!-- End Clients Section -->
+  <!-- contact us section begins -->
+  <section class="pt-5 mt-5 pb-5 section">
+    <div class="section-title mt-5">
+      <h2>Contact Us</h2>
+      <p>Contact Us and get started</p>
+    </div>
+    <section id="contact" class="contact text-center  mt-5">
+      <div class="container aos-init aos-animate " data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch aos-init aos-animate color" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="info">
+              <div class="address pt-5">
+                <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                  </svg> Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+              <div class="email">
+                <h4> <i class="bi bi-envelope"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                  </svg> Email:
+                </h4>
+                <p>info@example.com</p>
+              </div>
+              <div class="phone">
+                <h4> <i class="bi bi-phone"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange"
+                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                  </svg> Call:
+                </h4>
+                <p>+1 5589 55488 55</p>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+          </div>
+
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch aos-init aos-animate black color"
+            data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6 ">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required=""></textarea>
+              </div>
+              <div class="m-5">
+                <button type="button" class="btn btn-info bg-warning">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="">
+      <div class=" bg-white footer-newsletter bg-warning ">
+        <div class="text-center coin pt-5 ">
+          <h4 class="text-center ">Join Our Newsletter</h4>
+          <div class="form-group">
+            <input type="text " name="name" class="type form-control w-50 mx-auto" id="name"
+              placeholder="Join our Newsletter" required="">
+            <button type="button" class="btn btn-info bg-warning type mt-5 ">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- overall -->
+    <script src="./vendor/aos/aos.js"></script>
+    <script src="./styles/bootstrap-5.0.0-beta3-dist/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+    <script src="./vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
